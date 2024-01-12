@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126 */
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+     display: block;
+   }
+   body {
+     line-height: 1;
+   }
+   ol, ul {
+     list-style: none;
+   }
+   blockquote, q {
+     quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+     content: '';
+     content: none;
+   }
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
+/* END OF RESET */
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+.navbar {
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+}
+
+/* position: relative;
+  height: auto;
+  overflow: hidden;
+
+navbar a {
+float: left;
+padding: 14px 16px;
+position: absolute;
+
+
+} */
+
+li {
+    display: inline;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+li{
+  line-height: 4px;
+  height: 4px;
+  border: 3px solid green;
+  bottom: 0;
+  width: 50%;
+}
+
+li img{
+  height: 2rem;
+}
+
+
+a {
+    margin: 1px 8px;
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+
+}
+
+.itensMenu{
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 1rem 2rem;
+  bottom: 0;
+
+
+}
+
+
+body {
+ background-color: #dbbaff;
+}
+
+.perfil_animal {
+  display: flex;
+}
+
+.perfil_animal img {
+ align-items: center;
+ align-content: center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
