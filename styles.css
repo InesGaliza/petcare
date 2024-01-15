@@ -78,18 +78,15 @@ position: absolute;
 }
 
 li{
-  display: inline;
+  display: flex;
   align-items: center;
   align-content: center;
-
-  position: relative;
   border: 3px solid #ffffff;
-  
-  bottom: 0;
   width: 50%;
   vertical-align: baseline;
   text-align: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 
@@ -107,16 +104,19 @@ li{
  justify-content: center;
  vertical-align: middle;
  flex-direction: column-reverse;
+ border-radius: 25px;
 }
 
-#listaItens{
+ #listaItens{
   display: flex;
-  border-radius: 50%;
+  border-radius: 25%;
+  height: 20vw;
+
 }
 
 a {
     margin: 1px 8px;
-    color: #00ff00;
+    color: #370171;
     text-decoration: none;
     font-size: 1.1em;
     text-align: center;
@@ -128,7 +128,9 @@ a {
   text-align: center;
   margin: 0 0.5rem 2rem;
   bottom: 0;
-  border-radius: 50%;
+  border-radius: 40px;
+  height: 20vw;
+  padding: 10px;
 
 }
 
