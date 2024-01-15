@@ -69,6 +69,23 @@ position: absolute;
 } */
 
 
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/* UPLOAD DA FONT, EM DOIS WEIGHTS DIFERENTES */
+@font-face {
+  font-family: Alliance;
+  src: url(fonts/RethinkSans-Regular.ttf);
+  font-weight: 300;
+}
+   
+@font-face {
+  font-family: Alliance;
+  src: url(fonts/RethinkSans-Bold.ttf);
+  font-weight: 700;
+}
+   
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
 
 
 .navbar a:hover {
