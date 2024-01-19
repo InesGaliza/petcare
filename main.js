@@ -5,16 +5,13 @@ console.log("hellooooooo")
 
 //AO CLICAR NO BOTÃO VET ELE FICA ROXO COM LETRAS BRANCAS
 
-function menu(){
-    var menuButton = document.getElementById("vet_roxo");
-    var menuButton = document.getElementById("vet_button");
-    var menu = document.getElementById("button_vet");
+    var menuVetroxo = document.getElementById("vet_roxo");
+    var menuVetwhite = document.getElementById("vet_branco");
+    var menuButton = document.getElementById("button_vet");
     
     menuButton.addEventListener("click", function() {
-      if (menu.style.display === "block") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "block";
-      }
+      console.log("clicked")
+      menuVetwhite.style.display = "block"; 
+      menuVetroxo.style.display = "none";
+      document.getElementById("link_vet").style.color = "#fff";
     });
-}

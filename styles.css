@@ -52,7 +52,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  
+  z-index: 999;
   text-align: center;
 }
 
@@ -85,7 +85,42 @@ position: absolute;
    
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
+h1{
+  font-family: Alliance;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #370171;
+  align-self: flex-start;
+  width: min-content;
+  margin: 0.5rem;
 
+}
+
+h3{
+  font-family: Alliance;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #370171;
+  background-color: #dbbaff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  width:min-content;
+  margin: 0.5rem;
+  align-self: flex-start;
+}
+
+h4{
+  font-family: Alliance;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #370171;
+  background-color: #F7E8FF;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  width:min-content;
+  margin: 0.5rem;
+  align-self: flex-start;
+}
 
 
 .navbar a:hover {
@@ -150,16 +185,19 @@ a {
   border-radius: 40px;
   height: 20vw;
   padding: 10px;
+  box-shadow:0 3px 12px 0 #dbbaff;
 
 }
 
 
 body {
- background-color: #dbbaff;
+ background-color: #fbf7ff;
+ width: 100%;
 }
 
 .perfil_animal {
   display: flex;
+
 }
 
 .perfil_animal img {
@@ -193,12 +231,13 @@ body {
  border-radius: 25px;
 }
 
-.button_vet:hover{
+#button_vet:hover{
   background-color: #370171;
+
 }
 
-.button:hover{
-  background-color: #370171;
+a:hover{
+  color:#fff;
 }
 
 
@@ -215,11 +254,32 @@ body {
  vertical-align: middle;
  flex-direction: column-reverse;
  border-radius: 25px;
+
 }
 
-.button_animais:hover{
-  background-color: #370171;
+#animais_botao {
+  background-color: #370171 !important;
 }
 
 
+
+.button_animais > a{
+  color:#fbf7ff;
+}
+
+
+.descricao{
+ 
+  height: 100%;
+    background-color: #fbf7ff;
+    padding: 1.2000000000000028rem;
+    border-radius: 1em 1em 0 0;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin-top: -119px;
+    z-index: 900;
+}
 

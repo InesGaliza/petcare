@@ -10,7 +10,7 @@
 
  <link rel="stylesheet" href="styles.css">
  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
- <script src="main.js"></script>
+
 
  <!--LINK PARA -->
 
@@ -25,35 +25,35 @@
                    
                       <div class="itensMenu">
                         <ul id="listaItens">
-                            <li>
-                                <div class="button_vet">
-                                    <a href="./veterinario.html"> veterinário</a>
-                                    <img id="vet_roxo" src="./images/vet_roxo.svg" alt="vet" style="height: 1rem;">
-                                    <img id="vet_branco"  src="./images/vet_branco.svg" alt="vet" style="display: none;">
+                            <li id="button_vet" >
+                                <div class="button">
+                                    <a id="link_vet" href="#">vet</a>
+                                    <img id="vet_roxo" src="./images/vet_roxo.svg" alt="vet" style="display:block;">
+                                    <img id="vet_branco"  src="./images/vet_branco.svg" alt="vet" style="display:none;">
                                 </div>
                             </li>
-                            <li>
+                            <li id="button_vet">
                                 <div class="button">
                                     <a href="#"> serviços </a>
                                     <img src="./images/service_roxo.svg" alt="vet" style="height: 2rem;">
                                     <img src="./images/service_branco.svg" alt="vet" style="height: 1rem; display: none;">
                                 </div>
-                            </li>
-                            <li>
+                            </li >
+                            <li id="animais_botao">
                                 <div class="button_animais">
-                                    <a href="./index.html"> animais </a>
-                                    <img src="./images/ani_roxo.svg" alt="vet" style="height: 1rem;">
-                                    <img src="./images/ani_branco.svg" alt="vet" style="height: 1rem; display: none;">
+                                    <a id="link_animal" href="./index.html"> animais </a>
+                                    <img src="./images/ani_roxo.svg" alt="vet" style="height: 1rem; display: none;">
+                                    <img src="./images/ani_branco.svg" alt="vet" style="height: 1rem; ">
                                 </div>
                             </li>
-                            <li id="animais">
+                            <li id="button_vet">
                                 <div class="button">
                                     <a href="#"> perfil </a>
                                     <img src="./images/perfil_roxo.svg" alt="vet" style="height: 1rem;">
                                     <img src="./images/perfil_branco.svg" alt="vet" style="height: 1rem; display: none;">
                                 </div>
                             </li>
-                            <li>
+                            <li id="button_vet">
                                 <div class="button">
                                     <a href="#"> amigos </a>
                                     <img src="./images/amigos_roxo.svg" alt="vet" style="height: 1rem;">
@@ -68,14 +68,29 @@
    
     </header>
 
+ 
+    
+
+
     <div class="perfil_animal">
-        <img src="./images/gato.png" alt="Gato_Saramago">
+        <img src="./images/gato_saramago.png" alt="Gato_Saramago">
+      
     </div>
 
+    <div class="descricao">
+        <h1 id="nome">Saramago</h1>
+        <h3 id="sexo">♂</h3>
+        <h3 id="idade">8anos</h3>
+        <h3 id="animal">Gato</h3>
+        <h3 id="porte">Porte Pequeno</h3>
+        <h3 id="peso">4kg</h3>
+        <h4 id="chip">6200098201291941</h4>
+        <h4 id="raca">RND</h4>
+        <h4 id="dieta">Sem Dieta</h4>
+        <h4 id="alergias">Sem Alergias</h4>
+    </div>
 
-
-
-
+    <script src="main.js"></script>
 
 </body>
 </html>
