@@ -182,7 +182,7 @@ body {
 }
 
 .button_vet {
- color: #fff!important;
+
  display: flex !important;
  margin: 0 auto;
  width: 50px;
@@ -221,10 +221,5 @@ body {
   background-color: #370171;
 }
 
-.button_animais > a {
-  color: #fff;
-}
 
-li:first-child {
-  background-color: #370171;
-}
+
