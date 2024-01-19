@@ -132,10 +132,12 @@ li{
 }
 
 a {
+  font-family: Alliance;
+  font-weight: 300;
     margin: 1px 8px;
     color: #370171;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 0.8em;
     text-align: center;
 
 }
@@ -167,4 +169,62 @@ body {
  margin-left: auto;
  margin-right: auto;
  width: 100%;
+}
+
+
+.button:hover{
+  background-color: #370171;
+}
+
+
+.button_vet img{
+  height: 10vw !important
+}
+
+.button_vet {
+ color: #fff!important;
+ display: flex !important;
+ margin: 0 auto;
+ width: 50px;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+ flex-direction: column-reverse;
+ border-radius: 25px;
+}
+
+.button_vet:hover{
+  background-color: #370171;
+}
+
+.button:hover{
+  background-color: #370171;
+}
+
+
+.button_animais img{
+  height: 10vw !important
+}
+
+.button_animais {
+ display: flex !important;
+ margin: 0 auto;
+ width: 50px;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+ flex-direction: column-reverse;
+ border-radius: 25px;
+}
+
+.button_animais:hover{
+  background-color: #370171;
+}
+
+.button_animais > a {
+  color: #fff;
+}
+
+li:first-child {
+  background-color: #370171;
 }
