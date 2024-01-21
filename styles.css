@@ -88,7 +88,7 @@ position: absolute;
 h1{
   font-family: Alliance;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 36px;
   color: #370171;
   align-self: flex-start;
   width: min-content;
@@ -99,7 +99,7 @@ h1{
 h3{
   font-family: Alliance;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 16px;
   color: #370171;
   background-color: #dbbaff;
   padding: 0.5em;
@@ -112,7 +112,7 @@ h3{
 h4{
   font-family: Alliance;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 16px;
   color: #370171;
   background-color: #F7E8FF;
   padding: 0.5em;
@@ -285,7 +285,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
-    margin-top: -119px;
+    margin-top: -189px;
     z-index: 900;
 }
 

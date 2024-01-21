@@ -8,24 +8,28 @@
   var menuButton = document.getElementById("button_vet");
   var menuButtonNao = document.getElementById("button_n_selecionado");
   
-  menuButton.addEventListener("touchstart", function() {
-    console.log("clicked")
-    menuVetwhite.style.display = "block"; 
-    menuVetroxo.style.display = "none";
-    document.getElementById("link_vet").style.color = "#fff";
-  });
+  if(menuButton){
+    menuButton.addEventListener("touchstart", function() {
+      console.log("clicked")
+      menuVetwhite.style.display = "block"; 
+      menuVetroxo.style.display = "none";
+      document.getElementById("link_vet").style.color = "#fff";
+    });
+  
+    menuButton.addEventListener("touchend", function() {
+      location.href = "./veterinario.html"
+    });
+  }
 
-  menuButton.addEventListener("touchend", function() {
-    location.href = "./veterinario.html"
-  });
-
-  menuButtonNao.addEventListener("touchstart", function(){
-    console.log("clicked")
-    menuVetwhite.style.display = "block"; 
-    menuVetroxo.style.display = "none";
-    document.getElementById("link_vet").style.color = "#fff";
-  })
-
-  menuButtonNao.addEventListener("touchend", function() {
-    location.href = "./index.html"
-  });
+  if(menuButtonNao){
+    menuButtonNao.addEventListener("touchstart", function(){
+      console.log("clicked")
+      menuVetwhite.style.display = "block"; 
+      menuVetroxo.style.display = "none";
+      document.getElementById("link_vet").style.color = "#fff";
+    })
+  
+    menuButtonNao.addEventListener("touchend", function() {
+      location.href = "./index.html"
+    });
+  }
