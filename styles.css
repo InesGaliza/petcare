@@ -236,16 +236,22 @@ body {
 
 }
 
+#button_n_selecionado:hover{
+  background-color: #370171;
+}
+
+
+
 a:hover{
   color:#fff;
 }
 
 
-.button_animais img{
+.button_selecionado img{
   height: 10vw !important
 }
 
-.button_animais {
+.button_selecionado {
  display: flex !important;
  margin: 0 auto;
  width: 50px;
@@ -263,7 +269,7 @@ a:hover{
 
 
 
-.button_animais > a{
+.button_selecionado > a{
   color:#fbf7ff;
 }
 
@@ -281,5 +287,9 @@ a:hover{
     white-space: nowrap;
     margin-top: -119px;
     z-index: 900;
+}
+
+#button_n_selecionado > .button_vet > a:hover{
+  color:#fff;
 }
 

@@ -15,19 +15,48 @@
                    
                       <div class="itensMenu">
                         <ul id="listaItens">
-                            <li>
-                               
-                                <a href="./veterinario.html"> veterinário </a>
+                            <li id="animais_botao">
+                                <div class="button_selecionado">
+                                    <a id="link_vet" href="./veterinario.html">vet</a>
+                                    <img src="./images/vet_branco.svg" alt="vet" style="display:block;">
+                                </div>
                             </li>
-                            <li><a href="#"> serviços </a></li>
-                            <li><a href="./index.html"> animais </a></li>
-                            <li><a href="#"> perfil </a></li>
-                            <li><a href="#"> amigos </a></li>
+                            <li id="button_vet">
+                                <div class="button">
+                                    <a href="#"> serviços </a>
+                                    <img src="./images/service_roxo.svg" alt="vet" style="height: 2rem;">
+                                    <img src="./images/service_branco.svg" alt="vet" style="height: 1rem; display: none;">
+                                </div>
+                            </li >
+                    
+                            <li id="button_n_selecionado">
+                                <div class="button_vet">
+                                    <a id="link_animal" href="./index.html"> animais </a>
+                                    <img id="vet_roxo" src="./images/ani_roxo.svg" alt="vet" style="height: 1rem;">
+                                    <img id="vet_branco" src="./images/ani_branco.svg" alt="vet" style="height: 1rem; display:none;">
+                                </div>
+                            </li>
+                        <li id="button_vet">
+                            <div class="button">
+                                <a href="#"> perfil </a>
+                                <img src="./images/perfil_roxo.svg" alt="vet" style="height: 1rem;">
+                                <img src="./images/perfil_branco.svg" alt="vet" style="height: 1rem; display: none;">
+                            </div>
+                        </li>
+                        <li id="button_vet">
+                            <div class="button">
+                                <a href="#"> amigos </a>
+                                <img src="./images/amigos_roxo.svg" alt="vet" style="height: 1rem;">
+                                <img src="./images/amigos_branco.svg" alt="vet" style="height: 1rem; display: none;">
+                            </div>
+                        </li>
                         </ul>
                         </div>
                     </div>
                 </div>
         </nav>
     </header>
+
+    <script src="main.js"></script>
 </body>
 </html>
