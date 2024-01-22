@@ -293,3 +293,8 @@ a:hover{
   color:#fff;
 }
 
+
+.perfil_animal_forms{
+  background-image: url("./images/gato_saramago.png");
+  height: 100%;
+}

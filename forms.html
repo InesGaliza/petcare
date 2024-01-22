@@ -17,21 +17,36 @@
 
 </head>
 <body>
-    <label>Informações Obrigatórias:</label><br><br>
+
+    <div class="perfil_animal_forms">
+      
+      
+   <div class="formulario">
+    <h3>Informações Obrigatórias:</h3><br><br>
     <input type="text" placeholder="Nome do animal" id="nome"><br><br>
     <input type="text" placeholder="Espécie" id="animal"><br><br>
     <input type="text" placeholder="Porte do animal" id="porte"><br><br>
     <input type="text" placeholder="Peso" id="peso">
     <input type="text" placeholder="Idade" id="idade"><br><br>
 
-    <label>Informações Opcionais:</label><br><br>
+    <label class="switch">
+        <input type="checkbox" id="sexo">
+        <span class="slider round"></span>
+      </label>
+      
+    <label class="switch">
+        <input type="checkbox" id="castracao">
+        <span class="slider round" ></span>
+      </label><br><br>
+
+    <h3>Informações Opcionais:</h3><br><br>
     <input type="text" placeholder="Número do chip" id="chip"><br><br>
     <input type="text" placeholder="Raça" id="raca"><br><br>
     <input type="text" placeholder="Dieta" id="dieta"><br><br>
     <input type="text" placeholder="Alergias" id="alergias"><br><br>
     <button onclick="saveData()"> Concluído </button>
-
-
+</div>
+</div>
 
     <script src="forms.js"></script>
 
