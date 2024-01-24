@@ -122,6 +122,15 @@ h4{
   align-self: flex-start;
 }
 
+h5{
+  font-family: Alliance;
+  font-weight: 700;
+  font-size: 16px;
+  color: #370171;
+  margin: 0.5rem;
+  align-self: flex-start; 
+}
+
 
 .navbar a:hover {
     background-color: #ddd;
@@ -294,7 +303,72 @@ a:hover{
 }
 
 
-.perfil_animal_forms{
-  background-image: url("./images/gato_saramago.png");
+
+.editar{
+  width: 25px;
+  height: 25px;
+  position: static;
+  background-color: #dbbaff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 20px;
+  box-shadow: 0 2px 8px 0 #370171;
+}
+
+
+
+.editar img{
   height: 100%;
 }
+
+
+.adicionar{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: #fbf7ff;
+  padding: 10px;
+  right: 0;
+  top:0;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px 0 #370171;
+}
+
+.adicionar > a{
+  margin:0 !important;
+}
+
+.adicionar img{
+  height: 100%;
+}
+
+
+.formulario{
+  background-color: #dbbaff;
+  border-radius: 25px 25px 0px 0px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 93%;
+  box-sizing: border-box;
+}
+
+input{
+  width: 46%;
+  height: 8vw;
+
+  
+}
+
+::placeholder {
+  font-family: Alliance;
+  color: #858585;
+  opacity: 1; /* Firefox */
+}
+
+
+
+
+
